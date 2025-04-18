@@ -4,4 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-})
+  base: '/prototyping-portfolio-website/',
+  test: {
+    globals: true, // Enable global expect
+    environment: "jsdom", // Simulates a browser-like environment
+  },
+});
