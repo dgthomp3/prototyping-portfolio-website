@@ -7,7 +7,7 @@ export default function Bio() {
             <div className="biography__wrapper">
                 <div className="biography__sidebar">
                 <img
-                    src="/32C8D24E-B244-4AB9-A10B-6D8F554B51F3_1_201_a.jpeg"
+                    src="32C8D24E-B244-4AB9-A10B-6D8F554B51F3_1_201_a.jpeg"
                     alt="Dallas Thompson III"
                     className="biography__image"
                 />
