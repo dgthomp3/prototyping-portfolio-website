@@ -5,9 +5,18 @@
     font-family: sans-serif;
 }
 
+.back-link {
+    display: block;
+    text-align: left;
+    margin-bottom: 1rem;
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
 .hero {
-    text-align: center;
-    padding: 3rem 1rem;
+    text-align: left;
+    padding: 2rem 1rem;
 }
 
 .hero h1 {
@@ -23,8 +32,8 @@
 .overview {
     display: flex;
     flex-direction: row;
-    gap: 2rem;
-    margin: 4rem 0;
+    gap: 1rem;
+    margin: 3rem 0;
     flex-wrap: wrap;
 }
 
@@ -35,6 +44,7 @@
 
 .overview-text {
     flex: 1;
+    text-align: left;
     min-width: 250px;
     font-size: 1rem;
     color: lavender;
@@ -48,6 +58,7 @@
 
 .accomplishments {
     margin-top: 3rem;
+    text-align: left;
 }
 
 .accomplishments h2 {
@@ -57,6 +68,7 @@
 
 .accomplishments ul {
     list-style-type: disc;
+    list-style: none;
     padding-left: 1.5rem;
     color: lavender;
 }

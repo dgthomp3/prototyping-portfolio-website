@@ -41,14 +41,25 @@ export default function ProjectDetailPage() {
             </ul>
 
             {project.pdf && (
-            <a
-                href={project.pdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="pdf-link"
-            >
-                View Full Case Study (PDF)
-            </a>
+                <a
+                    href={project.pdf}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pdf-link"
+                >
+                    View Full Case Study (PDF)
+                </a>
+            )}
+
+            {project.github && (
+                <a
+                    href={project.github}
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    className="pdf-link"
+                >
+                    View GitHub Repository
+                </a>
             )}
         </section>
         </div>
