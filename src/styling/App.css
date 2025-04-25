@@ -63,6 +63,40 @@
   margin-bottom: 1.5rem;
 }
 
+.project-card {
+  padding: 1rem;
+  background-color: #fff4ec;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+/* This is the flex layout! */
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-link img {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.project-link h3 {
+  color: #d97706;
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+
 /* Responsive stacking for smaller screens */
 @media (max-width: 768px) {
   .biography__wrapper {

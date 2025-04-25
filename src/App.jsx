@@ -1,8 +1,13 @@
-import './App.css'
-import Bio from './Bio'
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
+import './styling/App.css';
 
 export default function App() {
   return (
-    <Bio></Bio>
-  )
-};
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/projects/:id" element={<ProjectDetailPage />} />
+    </Routes>
+  );
+}
