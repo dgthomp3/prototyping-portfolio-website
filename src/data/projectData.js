@@ -13,7 +13,7 @@ export const projectData = [
         'Integrated TMDb API',
         'Responsive UI with Vite + Tailwind',
       ],
-      github: 'https://github.com/dgthomp3/ReelRoster'
+      github: 'https://github.com/dgthomp3/ReelRoster',
     },
     {
       id: 'restaurant-proto',
@@ -31,6 +31,6 @@ export const projectData = [
         'Storyboarding',
         'Figma Wireframes',
       ],
-      pdf: 'AutomatedRest.pdf',
+      pdf: '/prototyping-portfolio-website/AutomatedRest.pdf',
     },
 ];
