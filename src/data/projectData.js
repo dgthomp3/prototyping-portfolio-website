@@ -1,7 +1,7 @@
 export const projectData = [
     {
       id: 'reelroster',
-      title: 'ReelRoster',
+      title: 'Reel Roster Project',
       image: 'film-reel.png',
       description: 'A movie database using TMDb API with React.',
       details: 'ReelRoster is a web application designed to help users discover ' +
@@ -31,6 +31,6 @@ export const projectData = [
         'Storyboarding',
         'Figma Wireframes',
       ],
-      pdf: '/AutomatedRest.pdf',
+      pdf: 'AutomatedRest.pdf',
     },
 ];
