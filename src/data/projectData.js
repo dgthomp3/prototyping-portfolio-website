@@ -33,4 +33,24 @@ export const projectData = [
       ],
       pdf: '/prototyping-portfolio-website/AutomatedRest.pdf',
     },
+    {
+      id: 'zappack',
+      title: 'ZapPack Smart Backpack Prototype',
+      image: 'zappy.png',
+      description: 'A smart backpack designed to enhance convenience and security for modern users.',
+      details: 'The ZapPack is a wearable technology prototype that seamlessly integrates ' +
+          'advanced tech features into a sleek backpack. It includes wireless charging, ' +
+          'biometric anti-theft protection, real-time location tracking, and smart inventory ' +
+          'management. Designed for tech-savvy travelers, students, and professionals, the ' +
+          'ZapPack ensures your essentials are secure, organized, and always within reach.',
+      accomplishments: [
+          'Wireless charging integration',
+          'Biometric anti-theft features',
+          'Real-time GPS tracking',
+          'Smart inventory management',
+          'Companion app wireframes',
+      ],
+      pdf: '/prototyping-portfolio-website/ZapPack_Prototype_Group8.pdf',
+      video: '/prototyping-portfolio-website/ZapPack_V2.mp4',
+  },
 ];

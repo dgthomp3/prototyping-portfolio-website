@@ -61,6 +61,14 @@ export default function ProjectDetailPage() {
                     View GitHub Repository
                 </a>
             )}
+
+            {project.video && (
+                <div className="video-container">
+                    <video controls>
+                        <source src={project.video} type="video/mp4" />
+                    </video>
+                </div>
+            )}
         </section>
         </div>
     </>
