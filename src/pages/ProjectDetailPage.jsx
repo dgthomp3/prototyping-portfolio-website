@@ -62,6 +62,19 @@ export default function ProjectDetailPage() {
                 </a>
             )}
 
+            {project.prototype && (
+                <p>
+                    <a
+                    href={project.prototype}
+                    target='_blank'
+                    rel="noopener noreferrer"
+                    className="pdf-link"
+                    >
+                        View Interactable Prototype
+                    </a>
+                </p>
+            )}
+
             {project.video && (
                 <div className="video-container">
                     <video controls>

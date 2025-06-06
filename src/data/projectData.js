@@ -52,5 +52,23 @@ export const projectData = [
       ],
       pdf: '/prototyping-portfolio-website/ZapPack_Prototype_Group8.pdf',
       video: '/prototyping-portfolio-website/ZapPack_V2.mp4',
-  },
+    },
+    {
+      id: 'aizoo',
+      title: 'AI Zoo Interface Prototype',
+      image: 'aizoo-preview.png',
+      description: 'A futuristic ticketing and exhibit exploration app for a zoo featuring AI-generated hybrid animals.',
+      details: 'AI Zoo is a speculative user interface prototype for a futuristic zoo where all animals are created through artificial intelligence and advanced bioengineering. ' +
+          'The prototype, built in Figma, features a modern layout, large immersive imagery, and intuitive navigation to help visitors explore exhibits, check wait times, and purchase admission tickets. ' +
+          'The design centers on balancing visual wonder with usability, providing a sci-fi inspired experience that remains accessible and user-friendly across devices.',
+      accomplishments: [
+        'Designed high-fidelity prototype in Figma',
+        'Created wireframes for ticket purchasing and RSVP flows',
+        'Implemented sci-fi themed layout with modern UI patterns',
+        'Integrated social media links and a wait time planning tool',
+        'Conducted user testing and synthesized actionable feedback',
+      ],
+      pdf: '/prototyping-portfolio-website/AIZoo_Prototype3_Group8.pdf',
+      prototype: 'https://www.figma.com/proto/yIC713IKgtVQjRAXEdQ32g/INFO-691?node-id=40-12&p=f&t=kVMAVO7aI1z8WJ7J-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2254',
+    },    
 ];
