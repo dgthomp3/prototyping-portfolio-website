@@ -24,10 +24,10 @@ export default function ProjectDetailPage() {
         {/* Overview Section */}
         <section className="overview">
             <div className="overview-image">
-            <img src={project.image} alt={project.title} />
+                <img src={project.image} alt={project.title} />
             </div>
             <div className="overview-text">
-            <p>{project.details}</p>
+                <p>{project.details}</p>
             </div>
         </section>
 
