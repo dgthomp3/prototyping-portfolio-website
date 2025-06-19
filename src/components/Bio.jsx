@@ -12,10 +12,10 @@ export default function Bio() {
                     />
                     <div className="biography__name">Dallas Thompson III</div>
                     <div className="biography__title">
-                        Builder of Clean Code<br />& Thoughtful Interfaces
+                        Builder of Clean Code<br />& Smooth Interfaces
                     </div>
                     <div className="contact-block">
-                        <strong>Let’s connect:</strong><br />
+                        <strong>Let's connect:</strong><br />
                         <a href="mailto:dgthomp96@gmail.com">dgthomp96@gmail.com</a><br />
                         <a href="https://www.linkedin.com/in/dallas-thompson-iii-93aa99a4/" target="_blank">LinkedIn</a> ·{' '}
                         <a href="https://github.com/dgthomp3" target="_blank">GitHub</a>
