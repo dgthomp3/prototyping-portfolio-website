@@ -2,81 +2,106 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 2rem;
-    font-family: sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: #3C3A67; /* deep */
 }
-
-.back-link {
-    display: block;
+  
+/* Back Button */
+.back-link {    
+    display: inline-block;
     text-align: left;
     margin-bottom: 1rem;
-    color: #1a73e8;
+    color: #6F3FF5; /* accent */
     text-decoration: none;
     font-weight: 500;
 }
 
+.back-link:hover {
+    text-decoration: underline;
+}
+  
+/* Hero Section */
 .hero {
     text-align: left;
-    padding: 2rem 1rem;
+    padding: 2rem 0 1rem;
 }
-
+  
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    color: #3C3A67;
 }
-
+  
 .hero .description {
     font-size: 1.2rem;
-    color: lavender;
+    color: #C7B8EA; /* lavender */
 }
-
+  
+/* Overview Section */
 .overview {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
-    margin: 3rem 0;
+    gap: 1.5rem;
+    margin: 2.5rem 0;
     flex-wrap: wrap;
 }
-
+  
 .overview-image img {
-    max-width: 220px;
-    max-height: 220px;
-    border-radius: 8px;
+    max-width: 260px;
+    max-height: 260px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
-
+  
 .overview-text {
     flex: 1;
     text-align: left;
-    min-width: 250px;
+    min-width: 280px;
     font-size: 1rem;
-    color: lavender;
+    color: #333C4F;
 }
-
-.full-image img {
-    width: 100%;
-    margin: 2rem 0;
-    border-radius: 12px;
-}
-
+  
+/* Accomplishments Section */
 .accomplishments {
     margin-top: 3rem;
     text-align: left;
 }
-
+  
 .accomplishments h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin-bottom: 1rem;
+    color: #6F3FF5; /* accent */
 }
-
+  
 .accomplishments ul {
     list-style-type: disc;
-    list-style: none;
     padding-left: 1.5rem;
-    color: lavender;
+    color: #3C3A67;
+    line-height: 1.6;
 }
-
+  
 .pdf-link {
     display: inline-block;
-    margin-top: 1.5rem;
-    color: #1a73e8;
+    margin-top: 1.25rem;
+    color: #6F3FF5;
+    font-weight: 500;
     text-decoration: underline;
+}
+
+.pdf-link:hover {
+    color: #8B6DFD;
+}
+  
+/* Video Container */
+.video-container {
+    margin-top: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+  
+.video-container video {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
 }  

@@ -1,33 +1,31 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  --primary: #C7B8EA;        /* Lavender */
+  --secondary: #A3D5FF;      /* Light Blue */
+  --accent: #321d6b;         /* Masculine Indigo Accent */
+  --deep: #3C3A67;           /* Deep Purple/Navy */
+  --bg-light: #F9F9FF;       /* Content Container Background */
+  --text-dark: #333C4F;
+  --text-light: #f9fafb;
+  --page-bg: var(--deep);
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  background-color: var(--page-bg);
+  color: var(--text-light);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+a {
+  color: var(--accent);
+}
+a:hover {
+  color: var(--deep);
 }
 
 h1 {

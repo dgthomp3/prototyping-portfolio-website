@@ -1,14 +1,17 @@
 #root {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
   max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
   padding: 2rem;
-  text-align: center;
 }
 
 .biography {
-  background-color: white;
-  color: #1f2937;
-  padding: 4rem 1.5rem;
+  background-color: var(--primary);
+  color: var(--deep);
+  padding: 2.5rem 1.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +34,7 @@
 .biography__sidebar {
   flex: 0 0 220px;
   text-align: center;
+  padding: 0 1rem;
 }
 
 .biography__image {
@@ -42,19 +46,41 @@
 }
 
 .biography__name {
+  margin-top: 0.5rem;
   font-weight: 600;
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+  color: var(--text-light);
+}
+
+.biography__title {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--primary);
+  margin-top: 0.25rem;
+  line-height: 1.2;
+}
+
+.contact-block {
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: var(--primary);
+  line-height: 1.6;
+}
+
+.contact-block a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-block a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 .biography__container {
   flex: 1;
   min-width: 0;
-}
-
-.biography__title {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
 }
 
 .biography__text {
@@ -66,7 +92,8 @@
 
 .project-card {
   padding: 1rem;
-  background-color: #fff4ec;
+  background-color: var(--secondary);
+  color: var(--deep);
   border-radius: 8px;
   transition: transform 0.2s ease-in-out;
 }
@@ -77,7 +104,7 @@
 
 .overview-image {
   position: relative;
-  width: 300px;  
+  width: 300px;
   height: 300px;
   border-radius: 12px;
   margin-bottom: 20px;
@@ -100,7 +127,7 @@
 }
 
 .project-link h3 {
-  color: #d97706;
+  color: var(--accent);
   font-size: 1.25rem;
   margin: 0;
 }

@@ -2,6 +2,7 @@ export const projectData = [
   {
     id: 'reelroster',
     title: 'Reel Roster Project',
+    category: 'Software',
     image: 'film-reel.png',
     description: 'A movie database using TMDb API with React.',
     details: 'ReelRoster is a web application designed to help users discover ' +
@@ -18,6 +19,7 @@ export const projectData = [
   {
     id: 'restaurant-proto',
     title: 'Restaurant Automation Prototype',
+    category: 'Prototype',
     image: 'chef.jpeg',
     description: 'Storyboards and Wire Frames to depict an automated restuarant',
     details: 'This project explores the design of an automated restaurant ' +
@@ -36,6 +38,7 @@ export const projectData = [
   {
     id: 'zappack',
     title: 'ZapPack Smart Backpack Prototype',
+    category: 'Prototype',
     image: 'zappy.png',
     description: 'A smart backpack designed to enhance convenience and security for modern users.',
     details: 'The ZapPack is a wearable technology prototype that seamlessly integrates ' +
@@ -56,6 +59,7 @@ export const projectData = [
   {
     id: 'aizoo',
     title: 'AI Zoo Interface Prototype',
+    category: 'Prototype',
     image: 'aizoo-preview.png',
     description: 'A futuristic ticketing and exhibit exploration app for a zoo featuring AI-generated hybrid animals.',
     details: 'AI Zoo is a speculative user interface prototype for a futuristic zoo where all animals are created through artificial intelligence and advanced bioengineering. ' +
@@ -74,6 +78,7 @@ export const projectData = [
   {
     id: 'nomad',
     title: 'NOMAD - Voice-Based Cooking Interface',
+    category: 'Prototype',
     image: 'nomad.png',
     description: 'A mobile, voice-activated cooking assistant designed for hands-free recipe navigation and appliance control.',
     details: 'NOMAD (Navigational Oral Module for All Dishes) is a prototype of a voice-activated remote that assists users in the kitchen. ' +
