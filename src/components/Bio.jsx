@@ -18,7 +18,8 @@ export default function Bio() {
                         <strong>Let's connect:</strong><br />
                         <a href="mailto:dgthomp96@gmail.com">dgthomp96@gmail.com</a><br />
                         <a href="https://www.linkedin.com/in/dallas-thompson-iii-93aa99a4/" target="_blank">LinkedIn</a> ·{' '}
-                        <a href="https://github.com/dgthomp3" target="_blank">GitHub</a>
+                        <a href="https://github.com/dgthomp3" target="_blank">GitHub</a><br />
+                        <a href="resume.pdf" target="_blank" rel="noopener noreferrer">Latest Resume</a>
                     </div>
                 </div>
                 <div className="biography__container">
