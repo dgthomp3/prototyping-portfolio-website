@@ -92,4 +92,24 @@ export const projectData = [
     pdf: '/prototyping-portfolio-website/NOMAD_Prototype.pdf',
     video: '/prototyping-portfolio-website/NOMAD_Demo.mp4',
   },
+  {
+    id: 'habittap',
+    title: 'Habit Tap App',
+    category: 'Software',
+    image: 'habittap.png',
+    description: 'A lightweight mobile habit-tracking app designed for simplicity, offline use, and motivational feedback.',
+    details: 'HabitTap is a mobile app built with React Native and SQLite, designed to help users ' +
+        'build and maintain positive habits through daily check-ins, visual progress tracking, and ' +
+        'reminders. Developed for students, professionals, and anyone working on personal development, ' +
+        'HabitTap offers a clean, intuitive experience backed by offline storage and motivational ' +
+        'streak visuals.',
+    accomplishments: [
+      'One-tap daily habit tracking with visual feedback',
+      'Local persistence using SQLite for offline use',
+      'Calendar heatmaps and streak counters to drive consistency',
+      'Cross-platform React Native UI design and optimization',
+      'Push notifications for reminders',
+    ],
+    github: 'https://github.com/dgthomp3/habit-tap',
+  },    
 ];
