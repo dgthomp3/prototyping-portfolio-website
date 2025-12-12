@@ -111,5 +111,36 @@ export const projectData = [
       'Push notifications for reminders',
     ],
     github: 'https://github.com/dgthomp3/habit-tap',
+  },
+  {
+    id: 'nomadplus',
+    title: 'NOMAD+ Smart Kitchen Assistant',
+    category: 'Software',
+    image: 'nomad+.png',
+    featured: true,
+    capstone: true,
+    description: 'A multi-modal cooking assistant with voice control and ingredient-based recipe search.',
+    details: 'NOMAD+ is a smart kitchen assistant designed to support truly hands-free cooking. Built ' + 
+      'with React Native and Go, it combines voice interaction, ingredient-based recipe search, ' +
+      'and AI-powered clarification using GPT-4o Mini. The system integrates real recipe data from ' +
+      'the Spoonacular API, offering access to more than 365,000 recipes, and includes smart timers, ' +
+      'voice control, and a cross-platform UI. NOMAD+ is a full end-to-end prototype that includes ' +
+      'step-by-step guidance, and a kitchen-optimized UI in an orange, gray, and green palette.' +
+      '<br><br>The project began with user research including a 60+ response survey and targeted interviews ' +
+      'to understand real cooking behaviors and pain points. Insights from this work shaped the design goals, ' +
+      'interaction model, and the prioritization of features for the MVP. I created sketches, wireframes, ' +
+      'and mid-fidelity prototypes to explore multimodal interaction, including future concepts for gesture ' +
+      'control and AR overlays. NOMAD+ represents a full end-to-end process that blends research, design, and ' +
+      'development into a cohesive and scalable cooking assistant.',
+    accomplishments: [
+      'Ingredient-based recipe search with natural language processing',
+      'Voice control simulation for hands-free cooking navigation',
+      'Smart timer functionality with start/pause/reset controls',
+      'Go backend with OpenAI GPT-4o mini and Spoonacular API integration',
+      'Cross-platform React Native app with Expo framework',
+      'RESTful API architecture with proper error handling and fallbacks',
+    ],
+    pdf: '/prototyping-portfolio-website/NOMAD+_CaseStudy_DallasThompsonIII.pdf',
+    github: 'https://github.com/dgthomp3/nomad-',
   },    
 ];

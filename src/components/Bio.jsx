@@ -27,7 +27,7 @@ export default function Bio() {
                         I'm Dallas! A software engineer, UX explorer, and design-minded builder of things that (hopefully) make life smoother.
                     </p>
                     <p className="biography__text">
-                        My journey started with a Computer Science degree from Hampton University and evolved through pursuing a Master's in HCI/UX at Drexel University, where I became fascinated by how interfaces can shape behavior. I love working at the edge of interaction — voice command systems in the kitchen, real-time collaboration tools, or smart wearables — anything that pushes the boundary between user and machine.
+                        My journey started with a Computer Science degree from Hampton University and grew through completing my Master's in HCI/UX at Drexel University, where I became fascinated by how interfaces shape behavior and how technology can blend naturally into everyday life. I enjoy working at the edge of interaction, whether that is voice driven kitchen tools, real time collaboration systems, smart wearables, or anything that challenges the boundary between user and machine.
                     </p>
                     <p className="biography__text">
                         Whether I'm building a sleek React app, prototyping with Figma, or wiring up cloud workflows, I'm driven by a simple goal: make tech feel human.

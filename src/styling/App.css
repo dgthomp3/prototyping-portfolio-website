@@ -134,6 +134,19 @@
   color: var(--accent);
   font-size: 1.25rem;
   margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.capstone-badge {
+  background-color: var(--accent);
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .video-container {

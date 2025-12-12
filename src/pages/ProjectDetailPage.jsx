@@ -27,7 +27,7 @@ export default function ProjectDetailPage() {
                 <img src={project.image} alt={project.title} />
             </div>
             <div className="overview-text">
-                <p>{project.details}</p>
+                <p dangerouslySetInnerHTML={{ __html: project.details }} />
             </div>
         </section>
 
@@ -41,25 +41,29 @@ export default function ProjectDetailPage() {
             </ul>
 
             {project.pdf && (
-                <a
-                    href={project.pdf}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="pdf-link"
-                >
-                    View Full Case Study (PDF)
-                </a>
+                <p>
+                    <a
+                        href={project.pdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="pdf-link"
+                    >
+                        View Full Case Study (PDF)
+                    </a>
+                </p>
             )}
 
             {project.github && (
-                <a
-                    href={project.github}
-                    target='_blank'
-                    rel="noopener noreferrer"
-                    className="pdf-link"
-                >
-                    View GitHub Repository
-                </a>
+                <p>
+                    <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="pdf-link"
+                    >
+                        View GitHub Repository
+                    </a>
+                </p>
             )}
 
             {project.prototype && (

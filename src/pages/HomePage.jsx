@@ -3,7 +3,9 @@ import ProjectCard from '../components/ProjectCard';
 import { projectData } from '../data/projectData';
 
 export default function HomePage() {
-  const softwareProjects = projectData.filter(p => p.category === 'Software');
+  const softwareProjects = projectData
+    .filter(p => p.category === 'Software')
+    .sort((a, b) => (b.capstone ? 1 : 0) - (a.capstone ? 1 : 0));
   const prototypeProjects = projectData.filter(p => p.category === 'Prototype');
 
   return (
