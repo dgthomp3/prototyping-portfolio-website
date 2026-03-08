@@ -107,6 +107,38 @@
   transform: scale(1.02);
 }
 
+.project-dropdown {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--accent);
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.view-details-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  padding-bottom: 4rem;
+}
+
+.view-details-link:hover {
+  text-decoration: underline;
+}
+
+
 .overview-image {
   position: relative;
   width: 300px;
@@ -125,7 +157,7 @@
 
 .project-link img {
   width: 80px;
-  height: auto;
+  height: 80px;
   border-radius: 6px;
   object-fit: cover;
 }
