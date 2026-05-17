@@ -113,6 +113,28 @@ export const projectData = [
     github: 'https://github.com/dgthomp3/habit-tap',
   },
   {
+    id: 'sydi-assessment',
+    title: 'SYDI Player Assessment Platform',
+    category: 'Software',
+    image: 'sydi.png',
+    description: 'A digital player evaluation system for youth baseball, basketball, and volleyball programs.',
+    details: 'SYDI is a full-stack web application built for Serenity Youth Development, Inc. to replace a paper-based player assessment process. ' +
+      'Coaches can evaluate players across three sports using sport-specific forms with a standardized 5-point rating system, upload player photos, and generate professional PDF assessment cards. ' +
+      'The platform includes a team analytics dashboard with division filtering, real-time player search, and a CI/CD pipeline with full E2E test coverage.' +
+      '<br><br>The app is deployed and actively used by coaches. It integrates Firebase for authentication, Firestore for real-time data, and Storage for player photos. ' +
+      'PDF reports are generated client-side using @react-pdf/renderer and mirror the layout of the original paper forms, making adoption seamless for coaches already familiar with the process.',
+    accomplishments: [
+      'Sport-specific assessment forms for baseball, basketball, and volleyball with a 5-point rating system',
+      'PDF report generation with sport branding, progress bars, and detailed skill breakdowns',
+      'Team analytics dashboard with division filtering and exportable team summary reports',
+      'Firebase integration: Firestore, Authentication, Storage, and Hosting',
+      'Player photo upload and management with Firebase Storage',
+      'Playwright E2E test suite covering all three sport forms and player lookup flows',
+      'GitHub Actions CI/CD pipeline that blocks deployment on failing E2E tests',
+    ],
+    video: '/prototyping-portfolio-website/sydi-demo.mp4',
+  },
+  {
     id: 'nomadplus',
     title: 'NOMAD+ Smart Kitchen Assistant',
     category: 'Software',
