@@ -9,16 +9,9 @@
 }
 
 .biography {
-  background-color: var(--primary);
-  color: var(--deep);
+  background-color: #111827;
+  color: #f9fafb;
   padding: 2.5rem 1.5rem;
-}
-
-@media (prefers-color-scheme: dark) {
-  .biography {
-    background-color: #111827;
-    color: #f9fafb;
-  }
 }
 
 .biography__wrapper {
