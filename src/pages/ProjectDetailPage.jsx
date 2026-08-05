@@ -17,15 +17,14 @@ export default function ProjectDetailPage() {
         <div className="project-detail">
         {/* Hero Section */}
         <section className="hero">
-            <h1>{project.title}</h1>
-            <p className="description">{project.description}</p>
+            <div className="hero__text">
+                <h1>{project.title}</h1>
+                <p className="description">{project.description}</p>
+            </div>
         </section>
 
         {/* Overview Section */}
         <section className="overview">
-            <div className="overview-image">
-                <img src={project.image} alt={project.title} />
-            </div>
             <div className="overview-text">
                 <p dangerouslySetInnerHTML={{ __html: project.details }} />
             </div>
